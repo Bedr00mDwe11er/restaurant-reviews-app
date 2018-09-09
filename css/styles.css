@@ -203,7 +203,7 @@ nav h1 a {
   border-radius: 0 0 2% 2%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #27f;
   font-family: Arial,sans-serif;
   font-size: 12pt;
@@ -368,7 +368,7 @@ nav h1 a {
         width: 100%;
     }
 
-    #restaurants-list li h1{
+    #restaurants-list li h2{
       font-size: 16pt;
     }
 
@@ -421,7 +421,7 @@ nav h1 a {
       margin: 0 0 0 4%;
     }
     /* ====================== Restaurant Listing ====================== */
-    #restaurants-list li h1{
+    #restaurants-list li h2{
       font-size: 16pt;
     }
 
@@ -493,7 +493,7 @@ nav h1 a {
       margin: 6%;
     }
 
-    #restaurants-list li h1 {
+    #restaurants-list li h2 {
       font-size: 17pt;
     }
 
@@ -594,7 +594,7 @@ nav h1 a {
       box-shadow: lightgrey 0px 0px 9px 6px;
     }
 
-    #restaurants-list li h1 {
+    #restaurants-list li h2 {
       font-size: 21pt;
     }
 
@@ -617,7 +617,11 @@ nav h1 a {
       width: auto;
     }
 
-    #restaurants-list li:first-child h1 {
+    #restaurants-list li:first-child .restaurant-img {
+      height: 27em;
+    }
+
+    #restaurants-list li:first-child h2 {
       font-size: 30pt;
     }
 
@@ -733,7 +737,7 @@ nav h1 a {
       box-shadow: lightgrey 0px 0px 9px 6px;
     }
 
-    #restaurants-list li h1 {
+    #restaurants-list li h2 {
       font-size: 21pt;
     }
 
@@ -756,7 +760,11 @@ nav h1 a {
       width: auto;
     }
 
-    #restaurants-list li:first-child h1 {
+    #restaurants-list li:first-child .restaurant-img {
+      height: 27em;
+    }
+
+    #restaurants-list li:first-child h2 {
       font-size: 30pt;
     }
 

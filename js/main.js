@@ -75,7 +75,8 @@ initMap = () => {
     self.newMap = L.map('map', {
         center: [40.722216, -73.987501],
         zoom: 12,
-        scrollWheelZoom: false
+        scrollWheelZoom: false,
+        focus:false
     });
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
         mapboxToken: 'pk.eyJ1Ijoic3RyaW5nIiwiYSI6ImNqa2s1anc4NTBiZTQza3BjNGMxd2NhMXoifQ.RW0mYXzTNrQz8Z8Vt60iEg',
@@ -171,7 +172,7 @@ createRestaurantHTML = (restaurant) => {
 
 
 
-    const name = document.createElement('h1');
+    const name = document.createElement('h2');
     name.innerHTML = restaurant.name;
     li.append(name);
 
